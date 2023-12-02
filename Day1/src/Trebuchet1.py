@@ -1,5 +1,5 @@
 total = 0
-for lines in open("Day1\Trebuchet1.txt"):
+for lines in open("Day1\Trebuchet.txt"):
     numbers = []
     for letters in lines:
         if(letters.isdigit()):
