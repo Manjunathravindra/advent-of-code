@@ -1,7 +1,7 @@
 import re
 count = []
 total = 0
-for line in open("Day2\Cube_Conundrum.txt"):
+for line in open("Day2\data\Cube_Conundrum.txt"):
   count.append(int((re.findall("[0-9]*:",line).pop()).replace(":","")))
   set = 0
   red = ""
